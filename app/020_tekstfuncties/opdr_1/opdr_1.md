@@ -11,7 +11,7 @@ Op [w3schools](https://www.w3schools.com/python/python_ref_string.asp) vind je v
 
 Opdracht 1a
 * Zorg dat de volgende zin op het scherm wordt getoond met de print-functie:
-> O mamma mia, wat maak je toch heerlijke pizza's
+> O mamma mia, wat maak je toch heerlijke pizza'
 
 Opdracht 1b
 * Ken de waarde 'Albert' toe aan de variabele `voornaam`
