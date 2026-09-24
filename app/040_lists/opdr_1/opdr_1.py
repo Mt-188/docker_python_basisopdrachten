@@ -2,8 +2,11 @@
 # Naam student:
 # Groep:
 
-mylist = ...
-dict_1 = ...
-dict_2 = ...
-dict_3 = ...
-dict_4 = ...
+persoon_1 = "Jan", "pieter"
+persoon_2 = "pieter", "jan"
+persoon_3 = "marie", "peters"
+persoon_4 = "henk", "tank"
+
+mylist = [persoon_1, persoon_2, persoon_3, persoon_4]
+
+print(mylist)

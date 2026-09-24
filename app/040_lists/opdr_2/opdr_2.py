@@ -12,4 +12,6 @@ rivier_info = {
 rivieren = list(rivier_info.keys())
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
-# Hier jouw code.....
+print(f"De rivier {rivieren[0].capitalize()} loopt door {rivier_info[rivieren[0]][1].capitalize()}")
+print(f"De rivier {rivieren[1].capitalize()} loopt door {rivier_info[rivieren[1]][0].capitalize()} en {rivier_info[rivieren[1]][1].capitalize()}")
+print(f"De rivier {rivieren[2].capitalize()} loopt door {rivier_info[rivieren[2]][2].capitalize()}")
