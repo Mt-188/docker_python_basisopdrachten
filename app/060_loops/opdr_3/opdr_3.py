@@ -6,4 +6,9 @@
 
 # Hier start de for-loop
 
-my_list = []
+getallen = []
+
+for getal in range(3, 82, 3):
+    getallen.append((getal ** 2) / 3)
+
+print(getallen)
