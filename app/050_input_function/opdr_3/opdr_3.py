@@ -4,3 +4,6 @@
 
 # Hier komt je code...
 
+steden = ["Zwolle", "Zaanstad", "Haarlem", "Dronten", "Amsterdam"]
+steden.sort(reverse=True)
+print(steden)
