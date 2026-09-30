@@ -6,4 +6,5 @@
 
 # Hier start de for-loop
 
-my_list = []
+resultaat =[x *3 for x in range(1, 11)          ]
+print (resultaat[:6])
