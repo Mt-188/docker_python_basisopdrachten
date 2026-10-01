@@ -1,12 +1,33 @@
-# Opdracht 4 condities
-# Naam student:
-# Groep:
+#Je wilt extra topping voor op je pizza bestellen.
+#Maak een input functie waarmee je kunt kiezen uit een lijst met beschikbare toppings.
+#Bouw de lijst op met behulp van de variabele toppings (dus niet opnieuw overtikken!!)
 
+#> input(f"Kies je topping uit deze lijst: { beschikbare_toppings }")
 
+#> toppings = [("olijven", 4.50), ("kaas", 3.50), ("salami", 3.00), ("pepperoni", 2.00) , ("ansjovis", 2.50)]
 
-toppings = [("olijven", 4.50), ("kaas", 3.50), ("salami", 3.00), ("pepperoni", 2.00) , ("ansjovis", 2.50)]
-beschikbare_toppings = ...
+#Als je een keuze hebt gemaakt krijg je te zien wat je hebt gekozen en de prijs die je moet betalen.
+
+#Output:
+
+#> Maak een keuze uit onze toppings: ['olijven', 'kaas', 'salami', 'pepperoni', 'ansjovis']   
+#> salami  
+#> U heeft salami besteld. Dat kost 3.0
+
+#> Maak een keuze uit onze toppings: ['olijven', 'kaas', 'salami', 'pepperoni', 'ansjovis']  
+#> sdfjsdf  
+# > Uw keuze zit niet in ons assortiment
+
+toppings = [("olijven", 4.50), ("kaas", 3.50), ("salami", 3.00), ("pepperoni", 2.00), ("ansjovis", 2.50)]
+
+beschikbare_toppings = [topping[0] for topping in toppings]
 
 keuze = input(f"Maak een keuze uit onze toppings: {beschikbare_toppings} \n")
 
-# Hier de rest van jouw code...
+for topping in toppings:
+    if keuze == topping[0]:
+        print(f"U heeft {topping[0]} besteld. Dat kost {topping[1]}")
+        break
+else:
+    print("Uw keuze zit niet in ons assortiment")
+

@@ -6,7 +6,10 @@
 
 # Hier start de for-loop....
 
-my_list = []
+getallen = [1,2,3,4,5,6,7,8,9,10]
+for getal in getallen: 
+    if getal  > 4 :
+        print(getal)
 
 #for loop
 #if statement
