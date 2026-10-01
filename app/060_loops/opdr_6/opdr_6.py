@@ -6,4 +6,10 @@
 
 # Hier start de for-loop
 
-my_list = []
+Pizza = ['margharita', 'calzone', 'verdi', 'olivio', 'quattro stagioni']
+Pizza.sort()
+Pizza.append("pollo")
+Pizza.remove("olivio")
+print(Pizza[2])
+print(Pizza[-3:])   
+
